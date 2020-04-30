@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    background-color:powderblue;
+}
+img {
+    -webkit-filter: grayscale(1);
+    filter: gray;
+    filter: grayscale(1);
+
+}
+canvas {
+    background-color: black;
+    display: block;
+    margin: 4em;
+}
+.c2 {
+    image-rendering: pixelated;
+    transform-origin: 0;
+}
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.uploadstyle{
+    background-color: green;
+    margin: 0 auto;
+    padding: 200px;
+    border-radius: 300px;
+    height: 300px;
+    font-weight: 800;
+}
+.rcorners2 {
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+/**.buttons {
+    width: 100%;
+    margin:auto;
+    font-weight: 800;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: 800;
+}*/
+.buttons{
+  background-color: blue;
+  margin: auto;
+  padding: 10px;
+  border-radius: 50px;
+  font-weight:700;
+  width:100%;
+color: #fff !important;
+text-transform: uppercase;
+text-decoration: none;
+background: #60a3bc;
+padding: 20px;
+border-radius: 50px;
+display: inline-block;
+border: none;
+transition: all 0.4s ease 0s;
+}
+.content {
+    display: none;
+    text-align: center;
+}
+
+.uploadedimage {
+    max-height: 100px;
+    max-width: 100px;
+    margin: auto;
+    padding: 30px;
+}
+.imagein {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    opacity: 0;
+}

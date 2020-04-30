@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Media</title>
+    <link rel="stylesheet" href="./theview.css" />
+</head>
+
+<body>
+  <h1 style="text-align:center;font-size:300%;font-family:verdana;color:red;">Welcome To Media World</h1>
+  <br />
+    <p>
+    <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <div class="uploadstyle">
+        <button class="buttons" type="button" onclick="$('.imagein').trigger( 'click' )">
+        Add Image
+      </button>
+                <input class="imagein" type="file" onchange="setLink(this);" accept="image/*" />
+
+        <div class="content">
+            <img class="uploadedimage" src="#" alt="your image" />
+
+        </div>
+        <br />
+        <br />
+    <script src="./code.js"></script>
+        <button class="buttons" type="button" onclick="getScale();">Set Scale !!!</button>
+      <form action="file:nn.html">
+        <br />
+        <input class="buttons" type="submit" value="NearestNeighbour sa7????" />
+      </form>
+      <br />
+      <form action="file:bilinear.html">
+        <input class="buttons" type="submit" value="Bilinear ya magnon?" />
+    </form>
+    </div>
+        <script  src="./code.js"></script>
+</html>
